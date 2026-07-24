@@ -21,4 +21,3 @@ print(sayi)
 print(type(sayi))
 
 # print(int("abc"))  ValueError: invalid literal for int() with base 10: 'abc'
-
