@@ -58,4 +58,3 @@ print(sayilar)
 
 sayilar[0]=999 #belirli bir indeksteki değeri başka bir değer ile değiştirir.
 print(sayilar)
-
