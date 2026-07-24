@@ -57,4 +57,9 @@ sayilar.pop(0) #belirlenen indeksi siler
 print(sayilar)
 
 sayilar[0]=999 #belirli bir indeksteki değeri başka bir değer ile değiştirir.
+<<<<<<< HEAD
 print(sayilar)
+=======
+print(sayilar)
+
+>>>>>>> da6b0c3e48f83554579bb298b1dbf75bcbc271a8

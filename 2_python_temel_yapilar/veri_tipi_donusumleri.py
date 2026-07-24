@@ -21,4 +21,7 @@ print(sayi)
 print(type(sayi))
 
 # print(int("abc"))  ValueError: invalid literal for int() with base 10: 'abc'
+<<<<<<< HEAD
 
+=======
+>>>>>>> da6b0c3e48f83554579bb298b1dbf75bcbc271a8
