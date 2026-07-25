@@ -31,7 +31,5 @@ Set:
     -Veri Değiştirilebilir.
     -Örnek : set(1,2,3,4)
     -Kullanım:  Tekrar eden değerleri temizlemek için ve küme işlemleri yapmak için kullanılır.
-    
-      
 
 """
