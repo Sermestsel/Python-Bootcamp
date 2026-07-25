@@ -6,8 +6,6 @@ if kosul:
 
 # Örnek:
 
-from operator import truediv
-
 sayi = 10
 if sayi > 0:  # Eğer sayı sıfırdan büyükse
     print("Sayı pozitiftir.")  # Eğer bu koşul doğru ise print fonksiyonu çağrılır.
