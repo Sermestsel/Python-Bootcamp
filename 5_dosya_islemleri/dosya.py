@@ -27,8 +27,26 @@ icerik = dosya.read()  # tüm dosyayı okur
 print(icerik)
 dosya.close()
 
-
+# Satır Satır Okuma
 dosya = open("ornek.txt", "r", encoding="utf-8")
 for satir in dosya:
     print(satir.strip())
 dosya.close()
+
+# Dosya İçeriğinin İşlenmesi
+# Okunan veri üzerinde işlem yapma
+
+dosya = open("ornek.txt", "r", encoding="utf-8")
+icerik = dosya.read()
+dosya.close()
+print("**" * 20)
+print(icerik)
+# İçeriği büyük harfe dönüştürme
+yeni_icerik = icerik.upper()
+print(f"yeni içerik: \n{yeni_icerik}")
+
+# Satır sayısını bulmak:
+dosya = open("ornek.txt", "r", encoding="utf-8")
+satirlar = dosya.readlines()
+dosya.close()
+print(f"Toplam Satır : {len(satirlar)}")
